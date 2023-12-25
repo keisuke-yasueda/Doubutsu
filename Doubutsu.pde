@@ -12,3 +12,4 @@ void draw() {
   board.draw();
   komaList.draw();
 }
+  
