@@ -53,3 +53,4 @@ abstract class AbstractKoma {
     this.y = board.mArea[this.team].getBlankYIndex();
     this.x = board.mArea[this.team].posX;
   }
+}
