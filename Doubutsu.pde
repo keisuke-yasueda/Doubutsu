@@ -8,7 +8,7 @@ void setup() {
   komaList = new KomaList();
 }
 
- void draw() {
+void draw() {
     String komaImage = "";
     if (this.team==0 && this.kStat.active) komaImage = this.name+"A.png";
     else if (this.team==1 && this.kStat.active) komaImage = this.name+"B.png";
@@ -24,3 +24,4 @@ void setup() {
     fill(#FF0000, SQUARESIZE);
     rect(this.x*SQUARESIZE, this.y*SQUARESIZE, SQUARESIZE, SQUARESIZE);
   }
+  
